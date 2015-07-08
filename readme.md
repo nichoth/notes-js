@@ -15,3 +15,8 @@ elmt.addEventListener('click', function handler(ev) {
 window.pageYOffset
 ```
 [cross-browser](https://github.com/yields/scrolltop): `npm install scrolltop`
+
+```js
+var st = require('scrolltop');
+console.log(st());
+```
