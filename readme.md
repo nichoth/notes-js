@@ -37,3 +37,30 @@ function update() {
 rafScroll.init();
 rafScroll.add(update);
 ```
+
+## accessible for clients without JS
+
+index.html
+```html
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <script>
+    document.querySelector('html').className = '';
+  </script>
+</head>
+<body>
+  <div class="hidden">my content</div>
+</body>
+</html>
+```
+
+style.css
+```css
+.hidden {
+  opactiy: 0;
+}
+.no-js .hidden {
+  opactiy: 1 !important;
+}
+```
