@@ -1,6 +1,18 @@
 # notes
 
-## removeEventListener
+
+## performance
+
+[Paul Lewis, SmashingConf Oxford 2015](https://vimeo.com/125121010)  
+In depth about animation frames, optimizing JS.
+
+[Paul Lewis, You should use [insert library/framework]](https://www.youtube.com/watch?v=_yCz1TA0EL4)  
+Manual DOM manipulation is fastest, followed by backbone.
+
+
+## dom stuff
+
+### removeEventListener
 
 ```js
 elmt.addEventListener('click', function handler(ev) {
@@ -9,7 +21,7 @@ elmt.addEventListener('click', function handler(ev) {
 });
 ```
 
-## vertical scroll amount
+### vertical scroll amount
 
 ```js
 window.pageYOffset
@@ -21,7 +33,7 @@ var st = require('scrolltop');
 console.log(st());
 ```
 
-## scroll events with requestAnimationFrame
+### scroll events with requestAnimationFrame
 
 ```js
 var scrolltop = require('scrolltop');
@@ -38,7 +50,7 @@ rafScroll.init();
 rafScroll.add(update);
 ```
 
-## accessible for clients without JS
+### accessible for clients without JS
 
 index.html
 ```html
