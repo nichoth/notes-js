@@ -9,6 +9,9 @@ In depth about animation frames, optimizing JS.
 [Paul Lewis, You should use [insert library/framework]](https://www.youtube.com/watch?v=_yCz1TA0EL4)  
 Manual DOM manipulation is fastest, followed by backbone.
 
+[Event loop explanation](https://www.youtube.com/watch?v=8aGhZQkoFbQ)  
+Phillip Roberts of &yet.
+
 
 ## dom stuff
 
